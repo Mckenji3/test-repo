@@ -1,0 +1,150 @@
+body {
+    background: url('../images/save1.jpg') no-repeat;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.256); /* Transparent black background 
+    /* background-image: url('../images/save1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1366px 640px;
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, sans-serif;
+    */
+} 
+
+#form {
+    position: fixed;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: auto; /* Responsive width */
+    max-width: auto; /* Maximum width */
+    height: auto; /* Adjust height automatically */
+    min-height: 50px; /* Minimum height */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.634);
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+}
+.verify {
+    font-size: 13px;
+    margin-right: 44px;
+    font-family: arial; 
+    margin: 0;
+    margin-bottom: 10px;
+}
+.verify a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+.verify p, .verify a {
+    display: inline; /* Make the elements inline */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.verify a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    margin-right: 150px;
+}
+h2 {
+    margin-left: -140px;
+    font-size: 40px;
+    font-family: Arial;
+}
+form a {
+    color: black;
+}
+input[type="text"],
+input[type="password"] {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Rounded corners */
+    
+
+    right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #082647;
+    font-weight: bold;
+    background: none;
+    
+}
+input[type="password"], .toggle-text {
+    display: inline-block;
+}
+
+    input::placeholder {
+    font-size: 16px; /* Initial placeholder size */
+    color: #8e8787; /* Placeholder color */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Placeholder style when input is focused */
+    input:focus::placeholder {
+    font-size: 12px; /* Smaller placeholder size */
+    color: #4f4a4a; /* Lighter placeholder color */
+    transform: translateY(-10px); /* Move placeholder up */
+} 
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(22, 1, 176); /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: darkblue; /* Darker shade of blue on hover */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #000; /* Black color */
+    text-decoration: none;
+}
+#sub {
+    color: white;
+    font-size: 18px;
+    
+}
+p a {
+    margin-top: -15px;
+}
+form h4 a {
+    color: darkgreen;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.logo-title img {
+    width: 40px; /* Adjust the size of the logo */
+    height: 40px; /* Adjust the size of the logo */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.logo-title h2 {
+    margin: 0; /* Remove default margin for h2 */
+    font-size: 24px; /* Adjust font size as needed */
+}
