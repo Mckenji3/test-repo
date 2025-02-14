@@ -1,6 +1,5 @@
 <?php
 require_once(__DIR__ . '/../read.php');
-require_once(_DIR_ . '/../database.php');
 ?>
 
 <!DOCTYPE html>
