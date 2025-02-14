@@ -1,9 +1,5 @@
 <?php
-// Include the read.php file
-require('./read.php');
-
-// Initialize error variable (if needed)
-$error = ''; // You can populate this variable with errors from read.php or other logic
+require_once(__DIR__ . '/../read.php');
 ?>
 
 <!DOCTYPE html>
