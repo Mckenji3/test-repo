@@ -1,8 +1,8 @@
 <?php
-    $host = 'localhost';
-    $user = 'root';
-    $password = '';
-    $database = 'create_db';
+    $host = 'sql105.infinityfree.com';
+    $user = 'if0_38321047';
+    $password = 'lU95HMCOvl';
+    $database = 'if0_38321047_create_db';
 
     $connection = mysqli_connect($host, $user, $password, $database);
 
