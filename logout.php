@@ -6,7 +6,7 @@
 
     unset($_SESSION['username']);
 
-    echo "<script>window.location.href = '/crud-dev/login.php'</script>";
-    
+    header("Location: /login.php");
+	exit();
 
 ?>

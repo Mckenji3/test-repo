@@ -1,6 +1,6 @@
 
 <?php
-    require_once(__DIR__ . '/../read.php');
+    require('/read.php');
 ?>
 
 <!DOCTYPE html>
